@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "name": "Psychiatry & Psychology ",
+        "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/11/13/15/27/dept-psych-4.jpg",
+        "description": "Psychiatry and psychology services draws upon the strength of a multidisciplinary team combined with leading research to ensure that you get the best care available. Comprehensive mental health assessments and treatments are coordinated by psychiatrists and psychologists, working with experienced nurses, social workers and others. Together, we'll build a personalized treatment plan to meet your needs.",
+        "icon": "https://cdn2.iconfinder.com/data/icons/technical-tools-1/512/xxx046-512.png"
+    },
+    {
+        "id": "2",
+        "name": "Dialysis ",
+        "img": "https://www.albertahealthservices.ca/assets/images/carousel/img-more-space-dialysis1.jpg",
+        "description": "Comprehensive renal replacement therapy (dialysis) options are available to people with chronic kidney disease. Dialysis services are offered at the clinic's campuses in Florida, Minnesota and several communities throughout the Mayo Clinic Health System. Mayo Clinic has provided dialysis services for more than 55 years.",
+        "icon": "https://static.thenounproject.com/png/1250230-200.png"
+    },
+    {
+        "id": "3",
+        "name": "Pediatric Transplant ",
+        "img": "https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "description": "At Mayo Clinic's campus in Minnesota, doctors trained in many areas treat children who may need transplants, including:Kidney,Liver,Heart,Bone marrowAt Mayo Clinic's campus in Minnesota, doctors and surgeons evaluate and treat children who may need kidney, liver, heart or bone marrow transplants. Children needing hospitalization receive care at Mayo Eugenio Litta Children's Hospital, a key part of the Mayo Clinic Children's Center.At Mayo Clinic's campus in Arizona, doctors trained in blood diseases and cancer (hematologists and oncologists), kidney conditions (nephrologists) and liver conditions (hepatologists) partner with Phoenix Children's Hospital to treat children who may need bone marrow transplants, liver transplants or kidney transplants..",
+        "icon": "https://cdn.iconscout.com/icon/premium/png-256-thumb/liver-transplant-1609647-1362652.png"
+    },
+    {
+        "id": "4",
+        "name": "Diabetic nephropathy ",
+        "img": "https://images.unsplash.com/photo-1579165466991-467135ad3110?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        "description": "The Mayo Clinic experts who offer diabetic nephropathy services provide skilled diagnosis and individualized treatment plans to people with diabetic nephropathy (diabetic kidney disease. The diabetic nephropathy services team offers advanced and precise diagnostic tests that can identify whether you have diabetic nephropathy, even if you aren't experiencing symptoms. Diagnostic tools include blood tests, urinalysis, renal imaging, kidney biopsy and urologic evaluation.",
+        "icon": "https://cdn2.iconfinder.com/data/icons/medicine-66/2126/46-512.png"
+    },
+    {
+        "id": "5",
+        "name": "Concierge",
+        "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2020/07/23/20/04/concierge-8col-632x264-3963187-0040r.jpg",
+        "description": "When you travel for medical care, there are a lot of details to consider. From finding the right hotel to finding your appointments, the experience can be overwhelming.Mayo Clinic is here to help.Mayo Clinic offers free concierge services dedicated to lightening your load and making your visit easier. While you focus on your medical care, Mayo Clinic's trained concierge staff can help you:Access and navigate your Patient Online Services account,Narrow your hotel options based on your budget and individual needs,Recommend restaurants personalized to your preferences or diet.",
+        "icon": "https://cdn0.iconfinder.com/data/icons/hotels-spas/24/reception-desk-bellhop-porter-service-concierge-512.png"
+    },
+    {
+        "id": "6",
+        "name": "Language Interpreter",
+        "img": "https://bloximages.newyork1.vip.townnews.com/mdjonline.com/content/tncms/assets/v3/editorial/3/51/35143a48-fe0c-11e6-b064-2b92a6a80b2f/58b6055bb0e4d.image.jpg?resize=1200%2C799",
+        "description": "At Mayo Clinic, interpreters are available at no cost to assist communication between health care providers and patients whose primary language is not English.       Experienced medical interpreters can attend appointments, translate patient education materials, and offer other assistance as needed. Patients should indicate if they need an interpreter when requesting an appointment at Mayo Clinic.",
+        "icon": "https://icon-library.com/images/interpreter-icon/interpreter-icon-12.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Emergency Medical",
+        "img": "https://blog.healthfirst.com/wp-content/uploads/2018/07/Dentist-epinephrine-distressed-patient-1200-723-696x419.jpg",
+        "description": "Medical emergencies often require immediate medical intervention in the emergency department setting. These emergencies include:Breathing difficulty of any type,Chest pain or pressure,Severe infections including cases of sepsis,Acute abdominal pain,Heavy bleeding",
+        "icon": "https://cdn.onlinewebfonts.com/svg/img_427760.png"
+    },
+    {
+        "id": "8",
+        "name": "International Patients Center",
+        "img": "https://thumbs.dreamstime.com/b/female-arab-patient-visiting-male-doctor-152514741.jpg",
+        "description": "Multilingual appointment, registration and finance personnel in the International Center are dedicated to meeting the needs of you and your family — before you arrive, during your appointments and after your return home.International Center staff arrange appointments, find interpreters and answer questions about billing and insurance. The concierge service in the office can guide you in making travel and lodging arrangements and tell you about community services, including shopping, entertainment, banking options and worship.<br/>The center also can arrange for fee-based travel services, including airline and hotel reservations and ground transportation, including shuttles, limousine service, and car rentals.",
+        "icon": "https://cdn4.iconfinder.com/data/icons/health-bold-line-2/48/92-512.png"
+    },
+    {
+        "id": "9",
+        "name": "Pragnency Care",
+        "img": "http://kamleshyadav.com/healthcare/images/portfolio/portfolio6.jpg",
+        "description": "The Pregnancy Services Network is comprised of a variety of organizations, throughout the Greater New York area, all serving individuals and families facing crisis pregnancies. These services include, but are not limited to, pregnancy testing, support counseling, material assistance, adoption counseling, maternity residences, post-abortion healing.",
+        "icon": "https://i.pinimg.com/originals/a8/c1/6c/a8c16c43db798d27ad3915eec1b89d19.png"
+    }
+]

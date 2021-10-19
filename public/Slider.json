@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Book Your Appoinment",
+        "info": "Multilingual appointment, registration and finance personnel in the International Center are dedicated to meeting the needs of you and your family — before you arrive, during your appointments and after your return home.",
+        "img": "http://www.magicalmaths.org/wp-content/uploads/2012/12/medical-medic-images-8.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Meet Our Doctor's Team",
+        "info": "Before our first session, kindly take some time to print & fill out relevant forms as well as you can.",
+        "img": "https://images.pexels.com/photos/6129049/pexels-photo-6129049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    },
+    {
+        "id": "3",
+        "title": "Stay Safe and sound",
+        "info": "We offers patients and visitors a comfortable and relaxing environment where they can feel at home before or after appointments",
+        "img": "https://images.pexels.com/photos/287227/pexels-photo-287227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+]

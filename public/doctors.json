@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "name": "Arnoley (Arney) S. Abcejo",
+        "AcademicRank": "Assistant Professor of Anesthesiology",
+        "SignificanceToPatientCare": "Dr. Abcejo hopes his research will raise awareness of the physiologic changes that occur after concussion and mild traumatic brain injury and that this knowledge will lead to improved care guidelines for individuals with these conditions. He continues to promote perioperative patient safety for neurosurgical procedures with his research.",
+        "imgUrl": "https://www.mayo.edu/-/media/kcms/employees/2018/06/16/22/22/arnoley-abcejo-14435381.jpg",
+        "PrimaryAppointment": "Consultant, Division of Gastroenterology & Hepatology, Department of Internal Medicine"
+    },
+    {
+        "id": "2",
+        "name": " Laura E. Raffals, M.D.",
+        "AcademicRank": "Professor of Medicine",
+        "SignificanceToPatientCare": "Dr. Raffals' work will hopefully advance the understanding of the role of microbes in IBD, which could lead to future development of novel treatments and preventive measures.",
+        "imgUrl": "https://www.mayo.edu/-/media/kcms/employees/2018/06/16/22/48/laura-raffals-15599639.jpg",
+        "PrimaryAppointment": "Consultant, Division of Gastroenterology & Hepatology, Department of Internal Medicine"
+    },
+    {
+        "id": "3",
+        "name": "Michael B. Wallace, M.D",
+        "AcademicRank": "Professor of Medicine",
+        "SignificanceToPatientCare": "Dr. Wallace's research offers the potential to detect cancers and pre-cancerous growths at earlier stages and lead to less invasive — and often organ-preserving — nonsurgical treatments.",
+        "imgUrl": "https://www.mayo.edu/-/media/kcms/employees/2018/06/16/22/19/michael-wallace-14266458.jpg",
+        "PrimaryAppointment": "Consultant, Division of Gastroenterology & Hepatology, Department of Internal Medicine"
+    },
+    {
+        "id": "4",
+        "name": "HIND J. FADEL, M.D., PH.D.",
+        "AcademicRank": "Assistant Professor of Medicine",
+        "SignificanceToPatientCare": "Dr. Fadel's hope is that her research will further the understanding of HIV pathobiology and other viral pathogens, help identify novel therapeutic targets, and advance HIV cure research.HIV continues to be one of the most important global infectious causes of morbidity and mortality, with over 30 million people infected and ongoing transmission.",
+        "imgUrl": "https://www.mayo.edu/-/media/kcms/employees/2018/06/16/22/21/hind-fadel-14325900.jpg",
+        "PrimaryAppointment": "Consultant, Division of Infectious Diseases, Department of Internal Medicine"
+    },
+    {
+        "id": "5",
+        "name": "Jeanette E. Eckel Passow, Ph.D",
+        "AcademicRank": "Professor of Biostatistics",
+        "SignificanceToPatientCare": "Dr. Eckel Passow's research efforts will lead to a better understanding of the susceptibility of adult diffuse glioma, which may help with differential diagnosis of indeterminate brain lesions.",
+        "imgUrl": "https://www.mayo.edu/-/media/kcms/employees/2018/06/16/22/00/jeanette-eckel-passow-13005154.jpg",
+        "PrimaryAppointment": "Consultant, Division of Biomedical Statistics and Informatics, Department of Quantitative Health Sciences"
+    },
+    {
+        "id": "6",
+        "name": "Marissa J. Schafer, Ph.D.",
+        "AcademicRank": "Assistant Professor of Physiology,        Assistant Professor of Neurology",
+        "SignificanceToPatientCare": "Aging is primary risk factor for multiple chronic conditions, including cognitive decline and dementia. Dr. Schafer's lab seeks to understand fundamental aging mechanisms and their influence on local and systemic tissue health and function. Their goal is to identify therapeutic approaches that may prevent or reduce late-life cognitive dysfunction, which has broad societal impact.",
+        "imgUrl": "https://www.mayo.edu/-/media/kcms/employees/2019/01/27/20/58/marissa-schafer-16089049.jpg",
+        "PrimaryAppointment": "Senior Associate Consultant, Department of Neurology"
+    },
+    {
+        "id": "7",
+        "name": "Jenn Smith, Ph.D",
+        "AcademicRank": "Assistant Professor of Laboratory Medicine and Pathology ,Assistant Professor of Neurology",
+        "SignificanceToPatientCare": "Understanding the disease mechanisms, developing diagnostic biomarkers, identifying the clinical presentations and discovering optimal treatments to ensure better outcomes is crucial for patients with neurological autoimmunity, paraneoplastic neurological syndromes or complications of immune-checkpoint inhibitor cancer immunotherapy.",
+        "imgUrl": "http://kamleshyadav.com/healthcare/images/team/team_member6.png",
+        "PrimaryAppointment": "Consultant, Division of Gastroenterology"
+    },
+    {
+        "id": "8",
+        "name": "Hu Zeng, Ph.D",
+        "AcademicRank": "Assistant Professor of Immunology",
+        "SignificanceToPatientCare": "Cellular metabolism dictates lymphocyte development, differentiation and immune function. Proper metabolic activity ensures lymphocyte immune competency without self-reactivity. Its deregulation may contribute to immune-related diseases such as lupus and arthritis. This revelation indicates that metabolic intervention may provide a novel avenue to combat diseases caused by errant immune cells.",
+        "imgUrl": "https://www.mayo.edu/-/media/kcms/employees/2018/06/16/23/16/hu-zeng-20563833.jpg",
+        "PrimaryAppointment": "Senior Associate Consultant I-Research, Department of Immunology"
+    }
+]

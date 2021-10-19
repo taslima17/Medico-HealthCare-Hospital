@@ -1,4 +1,4 @@
-import { getAuth, GoogleAuthProvider, onAuthStateChanged, createUserWithEmailAndPassword, signOut, signInWithEmailAndPassword, GithubAuthProvider, signInWithPopup } from 'firebase/auth'
+import { getAuth, GoogleAuthProvider, onAuthStateChanged, createUserWithEmailAndPassword, signOut, signInWithEmailAndPassword, GithubAuthProvider, signInWithPopup, updateProfile } from 'firebase/auth'
 import { useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
 import InitializeAuthentication from '../Firebase/Firebase.init';
@@ -13,58 +13,23 @@ const useFirebase = () => {
 
 
 
-    const history = useHistory();
-    // const location = useLocation();
-    // console.log('from', location.state?.from);
-    // const redirect_url = location.state?.from || '/home';
+
 
     const googleSignin = () => {
-        signInWithPopup(auth, googleProvider)
-            .then(res => {
-                const user = res.user;
-                setUser(user)
-                history.push('/');
-            }).catch(e => setError(e.message))
+        return signInWithPopup(auth, googleProvider);
 
         // history.push(redirect_url)
     }
     const githubSignin = () => {
-        signInWithPopup(auth, githubProvider)
-            .then(res => {
-                const user = res.user;
-                setUser(user);
-                console.log(user)
-            }).catch(e => setError(e.message))
-        // history.push(redirect_url)
+        return signInWithPopup(auth, githubProvider);
+
     }
     const Register = (name, email, password) => {
-        createUserWithEmailAndPassword(auth, email, password)
-            .then(res => {
-                const user = res.user;
-                setError('');
-
-            }).catch(e => {
-                setError(e.message)
-                // e.target.reset();
-            }
-            );
+        return createUserWithEmailAndPassword(auth, email, password);
 
     }
     const login = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then(res => {
-                const user = res.user;
-                setUser(user);
-                setError('');
-                console.log(user)
-            }
-            ).catch(e => {
-                setError(e.message)
-                // e.target.reset();
-            }
-            );
-        // history.push(redirect_url)
-
+        return signInWithEmailAndPassword(auth, email, password);
     }
     const logOut = () => {
         signOut(auth)
@@ -82,7 +47,7 @@ const useFirebase = () => {
             }
         })
     }, [])
-    return { user, error, googleSignin, githubSignin, logOut, login, Register };
+    return { setUser, user, setError, error, googleSignin, githubSignin, logOut, login, Register };
 
 }
 export default useFirebase;

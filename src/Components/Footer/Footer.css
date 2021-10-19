@@ -1,0 +1,12 @@
+.nav-btn{
+    text-decoration: none;
+   color: white;
+}
+.nav-btn:hover{
+   
+   color: rgb(146, 120, 120);
+}
+.about button:hover{
+    background-color: rgb(150, 126, 126);
+    color: white;
+}

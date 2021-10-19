@@ -17,7 +17,7 @@ const Banner = () => {
                     <img
                         className="d-block w-100"
                         src={s.img} style={{ opacity: "0.6", background: " rgba(76, 175, 80, 0.3)", height: "800px" }}
-                        alt="First slide"
+                        alt=""
                     />
                     <Carousel.Caption className="mb-5 pb-5 text-dark ">
                         <h1 className="display-1 fw-bold" >{s.title}</h1>

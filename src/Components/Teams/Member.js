@@ -4,7 +4,7 @@ const Member = (props) => {
     const { name, AcademicRank, SignificanceToPatientCare, imgUrl, PrimaryAppointment } = props.info;
     return (
         <div className="d-flex p-5 flex-lg-nowrap flex-wrap shadow-lg m-4  " style={{ textAlign: "left" }}>
-            <div className="ps-5">
+            <div className="ps-3">
                 <img src={imgUrl} width="200px" alt="" />
                 <h5>{name}</h5>
                 <p></p>

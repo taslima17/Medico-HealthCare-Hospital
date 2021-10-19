@@ -12,9 +12,9 @@ const ServiceDetails = () => {
     const currentService = service.find(s => s.id === id);
     console.log(service, id, currentService);
     return (
-        <div className="p-5 d-flex flex-lg-nowrap flex-sm-wrap">
-            <img src={currentService?.img} className="w-50 p-5" alt="" />
-            <div className="p-5">
+        <div className="p-5 d-flex flex-lg-nowrap flex-wrap">
+            <img src={currentService?.img} className="w-lg-50 p-lg-5 img-fluid" alt="" />
+            <div className="p-lg-5">
                 <h5>{currentService?.name}</h5>
                 <p>{currentService?.description}</p>
             </div>

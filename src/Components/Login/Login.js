@@ -9,10 +9,16 @@ const Login = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    // route setup
+
     const history = useHistory();
     const location = useLocation();
     console.log('from', location.state?.from);
     const redirect_url = location.state?.from || '/home';
+
+
+    // method implementation
     const handleGoogleSignin = () => {
         googleSignin().then(res => {
             const user = res.user;
@@ -59,6 +65,7 @@ const Login = () => {
                 const user = res.user;
                 setError('Registration Successful');
                 user.displayName = name;
+                logOut();
             }).catch(e => {
                 setError(e.message)
 
@@ -66,7 +73,7 @@ const Login = () => {
             );
 
     }
-
+    // data from input
     const HandleName = (e) => {
         const name = e.target.value;
         setName(name);
@@ -83,13 +90,16 @@ const Login = () => {
 
     return (
         <div className="login-page">
-            <div className="mt-5 toggle-btn d-flex w-50 justify-content-around mx-auto">
+            <div className="mt-5 toggle-btn d-flex w-25 justify-content-around mx-auto">
+
+                {/* toggle buttons */}
+
                 <button onClick={() => { setReg(true); setError(''); }} className="catagory" style={{ background: "white", border: "0", fontSize: "1.5rem", color: reg ? "red" : "black", borderBottom: reg ? "3px solid red" : "3px solid white" }}>Login</button>
                 <button className="catagory" onClick={() => { setReg(false); setError(''); }} style={{ background: "white", border: "0px", fontSize: "1.5rem", color: !reg ? "red" : "black", borderBottom: !reg ? "3px solid red" : "3px solid white" }} >Register</button>
 
             </div>
 
-            <Form className="w-50 m-5 mx-auto bg-white" onSubmit={handleSubmit}>
+            <Form className="w-25 m-5 mx-auto bg-white" onSubmit={handleSubmit}>
 
                 {!reg && <Form.Group className="mb-3" controlId="formGroupName">
                     <Form.Label>Name</Form.Label>
@@ -112,6 +122,8 @@ const Login = () => {
                     <Button type="submit" variant="danger" className="mt-2">Register</Button>}
 
             </Form>
+
+            {/* sign in method */}
 
             {reg && <button type="btn" className="w-25 mb-3 border-0 p-3 bg-secondary text-white fs-5" onClick={handleGoogleSignin}>Signin using Google  </button>}
             <br />

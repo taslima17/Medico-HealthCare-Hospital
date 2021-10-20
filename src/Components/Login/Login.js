@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
-
+import './Login.css';
+import gitLogo from '../../github.png';
+import googleLogo from '../../google.png';
 const Login = () => {
     const { setUser, setError, error, googleSignin, login, logOut, Register, githubSignin } = useAuth();
     const [reg, setReg] = useState(false);
@@ -89,45 +91,50 @@ const Login = () => {
 
 
     return (
-        <div className="login-page">
-            <div className="mt-5 toggle-btn d-flex w-25 justify-content-around mx-auto">
+        <div className="login-page p-lg-5 py-3">
+            <div className="bg-white px-lg-5 py-3 px-2  m-lg-5 w-50 mx-auto ">
+                <div className="mt-5 toggle-btn  d-flex justify-content-around mx-auto ">
 
-                {/* toggle buttons */}
+                    {/* toggle buttons */}
 
-                <button onClick={() => { setReg(true); setError(''); }} className="catagory" style={{ background: "white", border: "0", fontSize: "1.5rem", color: reg ? "red" : "black", borderBottom: reg ? "3px solid red" : "3px solid white" }}>Login</button>
-                <button className="catagory" onClick={() => { setReg(false); setError(''); }} style={{ background: "white", border: "0px", fontSize: "1.5rem", color: !reg ? "red" : "black", borderBottom: !reg ? "3px solid red" : "3px solid white" }} >Register</button>
+                    <button onClick={() => { setReg(true); setError(''); }} className="catagory" style={{ background: "white", border: "0", fontSize: "1.5rem", color: reg ? "blue" : "black", borderBottom: reg ? "3px solid blue" : "3px solid white" }}>Login</button>
+                    <button className="catagory" onClick={() => { setReg(false); setError(''); }} style={{ background: "white", border: "0px", fontSize: "1.5rem", color: !reg ? "blue" : "black", borderBottom: !reg ? "3px solid blue" : "3px solid white" }} >Register</button>
 
+                </div>
+
+                <Form className="  mt-5 mx-auto bg-white" onSubmit={handleSubmit}>
+
+                    {!reg && <Form.Group className="mb-3" controlId="formGroupName">
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control onBlur={HandleName} type="text" placeholder="Enter Name" />
+                    </Form.Group>}
+                    <Form.Group className="mb-3" controlId="formGroupEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control onBlur={HandleEmail} type="email" placeholder="Enter email" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formGroupPassword">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control onBlur={HandlePassword} type="password" placeholder="Password" />
+                    </Form.Group>
+                    <p className="text-danger">{error}</p>
+                    {!reg &&
+                        <button onClick={() => setReg(true)} style={{ border: "0", background: "white", color: "black" }}>Already have an account?</button>}
+                    <br />
+                    {reg ?
+                        <Button type="submit" variant="primary" className="">Login</Button> :
+                        <Button type="submit" variant="primary" className="mt-2">Register</Button>}
+
+                </Form> <br />
+                {reg && <h6>OR</h6>}
+
+                {/* sign in method */}
+                {reg && <img className="m-2" onClick={handleGoogleSignin} src={googleLogo} width="30px" alt="" />}
+                {reg && <img className="m-2" onClick={handleGithubSignin} src={gitLogo} width="30px" alt="" />}
+
+                {/* {reg && <button type="btn" className="mt-3 w-25 mb-3 border-0  bg-secondary text-white fs-5" onClick={handleGoogleSignin}>Signin using Google  </button>}
+<br /> <img src="" alt="" />
+{reg && <button type="btn" className="w-25 mb-3 border-0  fs-5 bg-secondary text-white" onClick={handleGithubSignin}>Signin using Github </button>} */}
             </div>
-
-            <Form className="w-25 m-5 mx-auto bg-white" onSubmit={handleSubmit}>
-
-                {!reg && <Form.Group className="mb-3" controlId="formGroupName">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control onBlur={HandleName} type="text" placeholder="Enter Name" />
-                </Form.Group>}
-                <Form.Group className="mb-3" controlId="formGroupEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control onBlur={HandleEmail} type="email" placeholder="Enter email" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formGroupPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control onBlur={HandlePassword} type="password" placeholder="Password" />
-                </Form.Group>
-                <p className="text-danger">{error}</p>
-                {!reg &&
-                    <button onClick={() => setReg(true)} style={{ border: "0", background: "white", color: "black" }}>Already have an account?</button>}
-                <br />
-                {reg ?
-                    <Button type="submit" variant="danger" className="">Login</Button> :
-                    <Button type="submit" variant="danger" className="mt-2">Register</Button>}
-
-            </Form>
-
-            {/* sign in method */}
-
-            {reg && <button type="btn" className="w-25 mb-3 border-0 p-3 bg-secondary text-white fs-5" onClick={handleGoogleSignin}>Signin using Google  </button>}
-            <br />
-            {reg && <button type="btn" className="w-25 mb-3 border-0 p-3 fs-5 bg-secondary text-white" onClick={handleGithubSignin}>Signin using Github </button>}
         </div >
     );
 };

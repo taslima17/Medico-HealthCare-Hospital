@@ -2,4 +2,9 @@
     margin-right: 30px;
     font-size:18px;
     font-weight: 600;
+    text-decoration: none;
+    color: rgb(77, 66, 66);
+}
+Nav .link:hover{
+    color: rgb(52, 52, 236);
 }

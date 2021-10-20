@@ -13,7 +13,7 @@ const ServiceDetails = () => {
     console.log(service, id, currentService);
     return (
         <div className="p-5 d-flex flex-lg-nowrap flex-wrap">
-            <img src={currentService?.img} className="w-lg-50 p-lg-5 img-fluid" alt="" />
+            <img src={currentService?.img} className="w-50 mx-auto p-lg-5 img-fluid" alt="" />
             <div className="p-lg-5">
                 <h5>{currentService?.name}</h5>
                 <p>{currentService?.description}</p>

@@ -3,8 +3,8 @@ import { Col, Form, Row, Button } from 'react-bootstrap';
 const Apointment = () => {
     return (
         <div className="d-flex flex-lg-nowrap flex-wrap my-5  p-5">
-            <div className="p-5 " style={{ textAlign: "left", width: "60%" }}>
-                <h4>What to do first</h4>
+            <div className="p-5 w-lg-50 " style={{ textAlign: "left" }}>
+                <h4 className="w-25 mb-3 pb-3 mx-auto" style={{ borderBottom: "5px solid blue" }}>What to do first</h4>
                 <h5>Create your medical profile.</h5>
                 <p>We'll ask for some basic information to assess your care needs.</p>
                 <h5>Have your insurance ready.</h5>
@@ -13,7 +13,7 @@ const Apointment = () => {
                 <p>Pick the best time for our team to follow up with a call.</p>
             </div>
             <div>
-                <h4>Book an Appointment</h4>
+                <h4 className="w-50 mb-3 pb-3 mx-auto" style={{ borderBottom: "5px solid blue" }}>Book an Appointment</h4>
                 <Form>
 
                     <Form.Group className="mb-3" controlId="formGridState">

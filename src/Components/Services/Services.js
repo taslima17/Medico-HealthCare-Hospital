@@ -16,7 +16,7 @@ const Services = () => {
             <h2 className="my-5 w-25 mx-auto pb-3" style={{ borderBottom: "5px solid blue" }}>Our Services</h2>
             <Row xs={1} md={2} lg={3} className="g-5 container mx-auto">
                 {Array.from({ length: 1 }).map((_, idx) => (
-                    data.map(s => <Col className=" shadow-lg " key={s.id}>
+                    data.map(s => <Col className=" shadow-sm service " key={s.id}>
                         <Card className="p-3  d-flex align-items-center flex-column border-0">
                             <Card.Img src={s.icon} alt="Card image" className="w-50 p-4  mx-auto " />
                             <Card.Title className="text-primary">{s.name}</Card.Title>
